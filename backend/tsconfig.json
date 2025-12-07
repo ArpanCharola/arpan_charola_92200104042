@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS", // MUST BE CommonJS
+    "target": "ES2022",
+    "moduleResolution": "node", // MUST BE node
+
+    "sourceMap": true,
+    "outDir": "./dist",
+    "rootDir": "./",
+
+    "esModuleInterop": true, 
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    
+    // Clean-up flags
+    "verbatimModuleSyntax": false,
+    "isolatedModules": false, 
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}

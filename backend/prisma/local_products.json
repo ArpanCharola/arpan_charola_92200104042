@@ -1,0 +1,74 @@
+[
+  {
+    "id": "1",
+    "name": "Wireless Noise Cancelling Headphones",
+    "price": 299.99,
+    "category": "Electronics",
+    "sku": "SKU001",
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000&auto=format&fit=crop",
+    "description": "Experience silence with our industry-leading noise cancelling headphones."
+  },
+  {
+    "id": "2",
+    "name": "Smart Fitness Watch Series 7",
+    "price": 199.50,
+    "category": "Wearables",
+    "sku": "SKU002",
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=1000&auto=format&fit=crop",
+    "description": "Track your fitness goals with advanced health monitoring features."
+  },
+  {
+    "id": "3",
+    "name": "Premium Leather Weekend Bag",
+    "price": 149.00,
+    "category": "Fashion",
+    "sku": "SKU003",
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?q=80&w=1000&auto=format&fit=crop",
+    "description": "Stylish and durable, perfect for your weekend getaways."
+  },
+  {
+    "id": "4",
+    "name": "Organic Cotton Basic Tee",
+    "price": 29.95,
+    "category": "Fashion",
+    "sku": "SKU004",
+    "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=1000&auto=format&fit=crop",
+    "description": "Comfortable, sustainable, and essential for every wardrobe."
+  },
+  {
+    "id": "5",
+    "name": "Minimalist Desk Lamp",
+    "price": 89.00,
+    "category": "Home",
+    "sku": "SKU005",
+    "image": "https://images.unsplash.com/photo-1507473888900-52e1adad54cd?q=80&w=1000&auto=format&fit=crop",
+    "description": "Illuminate your workspace with modern design."
+  },
+  {
+    "id": "6",
+    "name": "Ceramic Pour-Over Set",
+    "price": 45.00,
+    "category": "Kitchen",
+    "sku": "SKU006",
+    "image": "https://images.unsplash.com/photo-1544233726-9f1d2b27be8b?q=80&w=1000&auto=format&fit=crop",
+    "description": "Brew the perfect cup of coffee at home."
+  },
+  {
+    "id": "7",
+    "name": "Ergonomic Office Chair",
+    "price": 349.00,
+    "category": "Furniture",
+    "sku": "SKU007",
+    "image": "https://images.unsplash.com/photo-1505843490538-5133c6c7d0e1?q=80&w=1000&auto=format&fit=crop",
+    "description": "Support your posture during long work hours."
+  },
+  {
+    "id": "8",
+    "name": "Mechanical Gaming Keyboard",
+    "price": 129.99,
+    "category": "Electronics",
+    "sku": "SKU008",
+    "image": "https://images.unsplash.com/photo-1587829741301-3231756c98aa?q=80&w=1000&auto=format&fit=crop",
+    "description": "Precision and tactile feedback for the ultimate gaming experience."
+  }
+]

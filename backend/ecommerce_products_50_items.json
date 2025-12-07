@@ -1,0 +1,602 @@
+[
+    {
+        "name": "Wireless Bluetooth Earbuds",
+        "sku": "ELEC-001",
+        "price": 79.99,
+        "description": "Premium noise-cancelling earbuds with 30-hour battery life and crystal clear audio.",
+        "category": "Electronics",
+        "stock": 150,
+        "isFeatured": true,
+        "imageUrls": [
+            "/images/earbuds1.jpg"
+        ]
+    },
+    {
+        "name": "Organic Arabica Coffee Beans",
+        "sku": "GR-002",
+        "price": 12.99,
+        "description": "Single-origin Arabica beans, medium roast with notes of chocolate and citrus.",
+        "category": "Grocery",
+        "stock": 300,
+        "isFeatured": false,
+        "imageUrls": [
+            "/images/coffee2.jpg"
+        ]
+    },
+    {
+        "name": "Men's Casual T-Shirt",
+        "sku": "FSH-003",
+        "price": 24.99,
+        "description": "100% cotton premium t-shirt with comfortable fit and modern design.",
+        "category": "Fashion",
+        "stock": 200,
+        "isFeatured": true,
+        "imageUrls": [
+            "/images/tshirt1.jpg"
+        ]
+    },
+    {
+        "name": "Hydrating Face Serum",
+        "sku": "BTY-004",
+        "price": 29.99,
+        "description": "Vitamin C serum for brightening and hydrating skin, suitable for all skin types.",
+        "category": "Beauty",
+        "stock": 120,
+        "isFeatured": false,
+        "imageUrls": [
+            "/images/serum1.jpg"
+        ]
+    },
+    {
+        "name": "Running Shoes",
+        "sku": "SPT-005",
+        "price": 89.99,
+        "description": "Lightweight running shoes with responsive cushioning and breathable mesh.",
+        "category": "Sports",
+        "stock": 75,
+        "isFeatured": true,
+        "imageUrls": [
+            "/images/shoes1.jpg"
+        ]
+    },
+    {
+        "name": "Science Fiction Novel - Galaxy Quest",
+        "sku": "BK-006",
+        "price": 14.99,
+        "description": "Bestselling space adventure by award-winning author.",
+        "category": "Books",
+        "stock": 180,
+        "isFeatured": false,
+        "imageUrls": [
+            "/images/book1.jpg"
+        ]
+    },
+    {
+        "name": "Smartphone X Pro",
+        "sku": "MBL-007",
+        "price": 999.99,
+        "description": "Latest flagship smartphone with triple camera system and 5G connectivity.",
+        "category": "Mobiles",
+        "stock": 50,
+        "isFeatured": true,
+        "imageUrls": [
+            "/images/phone1.jpg"
+        ]
+    },
+    {
+        "name": "Organic Honey",
+        "sku": "GR-008",
+        "price": 8.99,
+        "description": "Pure, raw honey from sustainable beekeeping practices.",
+        "category": "Grocery",
+        "stock": 400,
+        "isFeatured": false,
+        "imageUrls": [
+            "/images/honey1.jpg"
+        ]
+    },
+    {
+        "name": "Laptop Pro 15",
+        "sku": "ELEC-009",
+        "price": 1299.99,
+        "description": "High-performance laptop with 16GB RAM and 1TB SSD storage.",
+        "category": "Electronics",
+        "stock": 40,
+        "isFeatured": true,
+        "imageUrls": [
+            "/images/laptop1.jpg"
+        ]
+    },
+    {
+        "name": "Women's Denim Jacket",
+        "sku": "FSH-010",
+        "price": 59.99,
+        "description": "Classic denim jacket with modern cut and comfortable fit.",
+        "category": "Fashion",
+        "stock": 90,
+        "isFeatured": false,
+        "imageUrls": [
+            "/images/jacket1.jpg"
+        ]
+    },
+    {
+        "name": "Charcoal Face Mask",
+        "sku": "BTY-011",
+        "price": 19.99,
+        "description": "Deep cleansing mask that removes impurities and excess oil.",
+        "category": "Beauty",
+        "stock": 250,
+        "isFeatured": false,
+        "imageUrls": [
+            "/images/mask1.jpg"
+        ]
+    },
+    {
+        "name": "Yoga Mat Premium",
+        "sku": "SPT-012",
+        "price": 34.99,
+        "description": "Non-slip, eco-friendly yoga mat with carrying strap.",
+        "category": "Sports",
+        "stock": 200,
+        "isFeatured": true,
+        "imageUrls": [
+            "/images/yogamat1.jpg"
+        ]
+    },
+    {
+        "name": "Cookbook: Healthy Recipes",
+        "sku": "BK-013",
+        "price": 22.99,
+        "description": "Collection of 100 healthy and delicious recipes for everyday cooking.",
+        "category": "Books",
+        "stock": 120,
+        "isFeatured": false,
+        "imageUrls": [
+            "/images/cookbook1.jpg"
+        ]
+    },
+    {
+        "name": "Wireless Charging Pad",
+        "sku": "ELEC-014",
+        "price": 29.99,
+        "description": "Fast wireless charging pad compatible with all Qi-enabled devices.",
+        "category": "Electronics",
+        "stock": 180,
+        "isFeatured": false,
+        "imageUrls": [
+            "/images/charger1.jpg"
+        ]
+    },
+    {
+        "name": "Organic Olive Oil",
+        "sku": "GR-015",
+        "price": 18.99,
+        "description": "Extra virgin olive oil, cold pressed from first harvest olives.",
+        "category": "Grocery",
+        "stock": 220,
+        "isFeatured": true,
+        "imageUrls": [
+            "/images/oliveoil1.jpg"
+        ]
+    },
+    {
+        "name": "Leather Handbag",
+        "sku": "FSH-016",
+        "price": 129.99,
+        "description": "Genuine leather handbag with multiple compartments and adjustable strap.",
+        "category": "Fashion",
+        "stock": 60,
+        "isFeatured": true,
+        "imageUrls": [
+            "/images/handbag1.jpg"
+        ]
+    },
+    {
+        "name": "Sunscreen SPF 50",
+        "sku": "BTY-017",
+        "price": 16.99,
+        "description": "Broad spectrum sunscreen, water resistant and non-greasy formula.",
+        "category": "Beauty",
+        "stock": 300,
+        "isFeatured": false,
+        "imageUrls": [
+            "/images/sunscreen1.jpg"
+        ]
+    },
+    {
+        "name": "Fitness Tracker",
+        "sku": "SPT-018",
+        "price": 49.99,
+        "description": "Water-resistant fitness tracker with heart rate monitor and sleep tracking.",
+        "category": "Sports",
+        "stock": 150,
+        "isFeatured": false,
+        "imageUrls": [
+            "/images/tracker1.jpg"
+        ]
+    },
+    {
+        "name": "Budget Smartphone A1",
+        "sku": "MBL-019",
+        "price": 199.99,
+        "description": "Affordable smartphone with great battery life and decent camera.",
+        "category": "Mobiles",
+        "stock": 300,
+        "isFeatured": false,
+        "imageUrls": [
+            "/images/phone2.jpg"
+        ]
+    },
+    {
+        "name": "Organic Quinoa",
+        "sku": "GR-020",
+        "price": 6.99,
+        "description": "Protein-rich organic quinoa, perfect for healthy meals.",
+        "category": "Grocery",
+        "stock": 500,
+        "isFeatured": false,
+        "imageUrls": [
+            "/images/quinoa1.jpg"
+        ]
+    },
+    {
+        "name": "Noise Cancelling Headphones",
+        "sku": "ELEC-021",
+        "price": 149.99,
+        "description": "Over-ear headphones with industry-leading noise cancellation technology.",
+        "category": "Electronics",
+        "stock": 80,
+        "isFeatured": true,
+        "imageUrls": [
+            "/images/headphones1.jpg"
+        ]
+    },
+    {
+        "name": "Formal Dress Shirt",
+        "sku": "FSH-022",
+        "price": 44.99,
+        "description": "Premium cotton dress shirt with French cuffs and slim fit.",
+        "category": "Fashion",
+        "stock": 140,
+        "isFeatured": false,
+        "imageUrls": [
+            "/images/shirt1.jpg"
+        ]
+    },
+    {
+        "name": "Lipstick Set",
+        "sku": "BTY-023",
+        "price": 24.99,
+        "description": "Set of 5 long-lasting lipsticks in trending shades.",
+        "category": "Beauty",
+        "stock": 180,
+        "isFeatured": true,
+        "imageUrls": [
+            "/images/lipstick1.jpg"
+        ]
+    },
+    {
+        "name": "Dumbbell Set 20kg",
+        "sku": "SPT-024",
+        "price": 79.99,
+        "description": "Adjustable dumbbell set for home workouts, includes storage rack.",
+        "category": "Sports",
+        "stock": 45,
+        "isFeatured": false,
+        "imageUrls": [
+            "/images/dumbbell1.jpg"
+        ]
+    },
+    {
+        "name": "Mystery Thriller Novel",
+        "sku": "BK-025",
+        "price": 12.99,
+        "description": "Page-turning thriller with unexpected twists and turns.",
+        "category": "Books",
+        "stock": 95,
+        "isFeatured": false,
+        "imageUrls": [
+            "/images/book2.jpg"
+        ]
+    },
+    {
+        "name": "Tablet Pro 10",
+        "sku": "ELEC-026",
+        "price": 449.99,
+        "description": "10-inch tablet with high-resolution display and powerful processor.",
+        "category": "Electronics",
+        "stock": 70,
+        "isFeatured": false,
+        "imageUrls": [
+            "/images/tablet1.jpg"
+        ]
+    },
+    {
+        "name": "Organic Almonds",
+        "sku": "GR-027",
+        "price": 9.99,
+        "description": "Raw, unsalted almonds packed with nutrients and antioxidants.",
+        "category": "Grocery",
+        "stock": 350,
+        "isFeatured": false,
+        "imageUrls": [
+            "/images/almonds1.jpg"
+        ]
+    },
+    {
+        "name": "Men's Running Shorts",
+        "sku": "FSH-028",
+        "price": 34.99,
+        "description": "Lightweight running shorts with moisture-wicking fabric and secure pockets.",
+        "category": "Fashion",
+        "stock": 180,
+        "isFeatured": false,
+        "imageUrls": [
+            "/images/shorts1.jpg"
+        ]
+    },
+    {
+        "name": "Anti-Aging Night Cream",
+        "sku": "BTY-029",
+        "price": 39.99,
+        "description": "Retinol-enriched night cream that reduces fine lines and wrinkles.",
+        "category": "Beauty",
+        "stock": 110,
+        "isFeatured": true,
+        "imageUrls": [
+            "/images/nightcream1.jpg"
+        ]
+    },
+    {
+        "name": "Football",
+        "sku": "SPT-030",
+        "price": 24.99,
+        "description": "Official size and weight football with durable construction.",
+        "category": "Sports",
+        "stock": 200,
+        "isFeatured": false,
+        "imageUrls": [
+            "/images/football1.jpg"
+        ]
+    },
+    {
+        "name": "Gaming Phone Xtreme",
+        "sku": "MBL-031",
+        "price": 799.99,
+        "description": "High-performance gaming phone with 144Hz display and cooling system.",
+        "category": "Mobiles",
+        "stock": 30,
+        "isFeatured": true,
+        "imageUrls": [
+            "/images/phone3.jpg"
+        ]
+    },
+    {
+        "name": "Smart Watch Series 5",
+        "sku": "ELEC-032",
+        "price": 299.99,
+        "description": "Advanced smartwatch with ECG app and always-on retina display.",
+        "category": "Electronics",
+        "stock": 90,
+        "isFeatured": true,
+        "imageUrls": [
+            "/images/smartwatch1.jpg"
+        ]
+    },
+    {
+        "name": "Organic Green Tea",
+        "sku": "GR-033",
+        "price": 7.99,
+        "description": "Premium loose leaf green tea with antioxidant properties.",
+        "category": "Grocery",
+        "stock": 420,
+        "isFeatured": false,
+        "imageUrls": [
+            "/images/greentea1.jpg"
+        ]
+    },
+    {
+        "name": "Women's Winter Coat",
+        "sku": "FSH-034",
+        "price": 129.99,
+        "description": "Water-resistant winter coat with thermal insulation and faux fur hood.",
+        "category": "Fashion",
+        "stock": 65,
+        "isFeatured": true,
+        "imageUrls": [
+            "/images/coat1.jpg"
+        ]
+    },
+    {
+        "name": "Makeup Brush Set",
+        "sku": "BTY-035",
+        "price": 34.99,
+        "description": "12-piece professional makeup brush set with vegan bristles.",
+        "category": "Beauty",
+        "stock": 160,
+        "isFeatured": false,
+        "imageUrls": [
+            "/images/brushes1.jpg"
+        ]
+    },
+    {
+        "name": "Tennis Racket",
+        "sku": "SPT-036",
+        "price": 89.99,
+        "description": "Professional tennis racket with carbon fiber construction.",
+        "category": "Sports",
+        "stock": 40,
+        "isFeatured": false,
+        "imageUrls": [
+            "/images/tennisracket1.jpg"
+        ]
+    },
+    {
+        "name": "Business & Economics Book",
+        "sku": "BK-037",
+        "price": 18.99,
+        "description": "Comprehensive guide to modern economics and business strategies.",
+        "category": "Books",
+        "stock": 85,
+        "isFeatured": false,
+        "imageUrls": [
+            "/images/book3.jpg"
+        ]
+    },
+    {
+        "name": "Bluetooth Speaker",
+        "sku": "ELEC-038",
+        "price": 59.99,
+        "description": "Portable Bluetooth speaker with 360-degree sound and waterproof design.",
+        "category": "Electronics",
+        "stock": 200,
+        "isFeatured": false,
+        "imageUrls": [
+            "/images/speaker1.jpg"
+        ]
+    },
+    {
+        "name": "Organic Pasta",
+        "sku": "GR-039",
+        "price": 4.99,
+        "description": "100% organic durum wheat pasta, perfect for authentic Italian dishes.",
+        "category": "Grocery",
+        "stock": 600,
+        "isFeatured": false,
+        "imageUrls": [
+            "/images/pasta1.jpg"
+        ]
+    },
+    {
+        "name": "Men's Leather Shoes",
+        "sku": "FSH-040",
+        "price": 99.99,
+        "description": "Handcrafted leather dress shoes with cushioned insoles.",
+        "category": "Fashion",
+        "stock": 75,
+        "isFeatured": true,
+        "imageUrls": [
+            "/images/leathershoes1.jpg"
+        ]
+    },
+    {
+        "name": "Facial Cleansing Oil",
+        "sku": "BTY-041",
+        "price": 22.99,
+        "description": "Gentle cleansing oil that removes makeup and impurities without stripping skin.",
+        "category": "Beauty",
+        "stock": 190,
+        "isFeatured": false,
+        "imageUrls": [
+            "/images/cleansingoil1.jpg"
+        ]
+    },
+    {
+        "name": "Cycling Helmet",
+        "sku": "SPT-042",
+        "price": 54.99,
+        "description": "Aerodynamic cycling helmet with ventilation channels and MIPS protection.",
+        "category": "Sports",
+        "stock": 110,
+        "isFeatured": false,
+        "imageUrls": [
+            "/images/helmet1.jpg"
+        ]
+    },
+    {
+        "name": "Mid-Range Smartphone B2",
+        "sku": "MBL-043",
+        "price": 349.99,
+        "description": "Balanced smartphone with excellent camera and all-day battery.",
+        "category": "Mobiles",
+        "stock": 180,
+        "isFeatured": false,
+        "imageUrls": [
+            "/images/phone4.jpg"
+        ]
+    },
+    {
+        "name": "4K Ultra HD TV",
+        "sku": "ELEC-044",
+        "price": 599.99,
+        "description": "55-inch 4K Smart TV with HDR and voice control capabilities.",
+        "category": "Electronics",
+        "stock": 25,
+        "isFeatured": true,
+        "imageUrls": [
+            "/images/tv1.jpg"
+        ]
+    },
+    {
+        "name": "Organic Dark Chocolate",
+        "sku": "GR-045",
+        "price": 5.99,
+        "description": "70% cocoa dark chocolate made with organic ingredients.",
+        "category": "Grocery",
+        "stock": 280,
+        "isFeatured": false,
+        "imageUrls": [
+            "/images/chocolate1.jpg"
+        ]
+    },
+    {
+        "name": "Women's Yoga Leggings",
+        "sku": "FSH-046",
+        "price": 39.99,
+        "description": "High-waisted leggings with four-way stretch and sweat-wicking fabric.",
+        "category": "Fashion",
+        "stock": 220,
+        "isFeatured": false,
+        "imageUrls": [
+            "/images/leggings1.jpg"
+        ]
+    },
+    {
+        "name": "Perfume - Ocean Breeze",
+        "sku": "BTY-047",
+        "price": 69.99,
+        "description": "Fresh aquatic fragrance with notes of sea salt and citrus.",
+        "category": "Beauty",
+        "stock": 95,
+        "isFeatured": true,
+        "imageUrls": [
+            "/images/perfume1.jpg"
+        ]
+    },
+    {
+        "name": "Resistance Bands Set",
+        "sku": "SPT-048",
+        "price": 19.99,
+        "description": "5-piece resistance bands set with different tension levels.",
+        "category": "Sports",
+        "stock": 300,
+        "isFeatured": false,
+        "imageUrls": [
+            "/images/resistancebands1.jpg"
+        ]
+    },
+    {
+        "name": "Children's Picture Book",
+        "sku": "BK-049",
+        "price": 9.99,
+        "description": "Colorfully illustrated children's book with educational content.",
+        "category": "Books",
+        "stock": 150,
+        "isFeatured": false,
+        "imageUrls": [
+            "/images/book4.jpg"
+        ]
+    },
+    {
+        "name": "External SSD 1TB",
+        "sku": "ELEC-050",
+        "price": 129.99,
+        "description": "Portable solid state drive with blazing fast transfer speeds.",
+        "category": "Electronics",
+        "stock": 120,
+        "isFeatured": false,
+        "imageUrls": [
+            "/images/ssd1.jpg"
+        ]
+    }
+]

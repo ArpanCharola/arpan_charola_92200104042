@@ -1,0 +1,96 @@
+// backend/prisma/schema.prisma (MySQL Users/Orders Schema)
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+// MySQL Datasource (Must be named 'db' for the default client)
+datasource db {
+  provider = "mysql"
+  url      = env("SQL_DATABASE_URL")
+}
+
+// Enum for User Role
+enum Role {
+  CUSTOMER
+  ADMIN
+}
+
+// Model for Users (SQL Database)
+model User {
+  id        Int      @id @default(autoincrement())
+  email     String   @unique
+  password  String 
+  name      String
+  role      Role     @default(CUSTOMER) 
+  orders    Order[]
+  cart      Cart?   // One-to-one relation: A user has one cart
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  
+  @@map("users") 
+}
+
+// Enum for Order Status
+enum OrderStatus {
+  PENDING
+  PROCESSING
+  SHIPPED
+  DELIVERED
+  CANCELLED
+}
+
+// Model for Orders (SQL Database)
+model Order {
+  id        Int      @id @default(autoincrement())
+  userId    Int
+  total     Float
+  status    OrderStatus @default(PENDING)
+  
+  // Relationships
+  user      User     @relation(fields: [userId], references: [id])
+  items     OrderItem[]
+  
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  
+  @@map("orders")
+}
+
+// Model for Order Items (SQL Database)
+model OrderItem {
+  id        Int      @id @default(autoincrement())
+  orderId   Int
+  productId String   // Stores the MongoDB product ID as a string
+  quantity  Int
+  priceAtPurchase Float
+
+  // Relationships
+  order     Order    @relation(fields: [orderId], references: [id])
+  
+  @@map("order_items")
+}
+
+// Model for Shopping Cart
+model Cart {
+  id        Int        @id @default(autoincrement())
+  userId    Int        @unique
+  user      User       @relation(fields: [userId], references: [id])
+  items     CartItem[]
+  createdAt DateTime   @default(now())
+  updatedAt DateTime   @updatedAt
+
+  @@map("carts")
+}
+
+// Model for Cart Items
+model CartItem {
+  id        Int      @id @default(autoincrement())
+  cartId    Int
+  cart      Cart     @relation(fields: [cartId], references: [id])
+  productId String   // Stores the MongoDB product ID
+  quantity  Int      @default(1)
+
+  @@unique([cartId, productId]) // Prevent duplicate entries for same product in a cart
+  @@map("cart_items")
+}
